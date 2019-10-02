@@ -1,7 +1,7 @@
 # Life_Support
 - Organization link: https://github.com/SEG2900-Group6
 - Repository link: https://github.com/SEG2900-Group6/life_support
-- Pages link: https://seg2900-group6.github.io/life_support/
+- Page link: https://seg2900-group6.github.io/life_support/
 
 - Member's names:
 	- Rami Zeid (Student number: 0300104838)  https://github.com/ramizeid
