@@ -6,3 +6,4 @@
 	- Elias Maalouf(Student number: 0300118475)
     - Dris-Bella Ishimwe(Student number: 0300144521)
     - Nicholas Morin (Student number: 0300109959)
+    - Sean D'Souza (Student number: 0300113232)
