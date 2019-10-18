@@ -20,8 +20,10 @@ These are our colour swatches:
 Primary Bright: #F5F5F7
 Primary Dark: #121217
 Primary Green: #00A352
+Secondary Green: #00B058
 Primary Yellow: #BCCC0C
-Primary Blue: #2997FF
+Primary Blue: #147ce5
+Secondary Blue: #2997FF
 
 Background Color: #121217
 Button Background Color: #00A352
