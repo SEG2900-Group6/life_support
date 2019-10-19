@@ -119,8 +119,14 @@ nav {
     background-color: #00B058;
 }
 
-/* Content*/
+/* Content */
 .content {
     width: 100%;
     height: 100%;
+}
+
+ul.a{
+    list-style-type: square;
+    margin: 0;
+    padding: 2;
 }
