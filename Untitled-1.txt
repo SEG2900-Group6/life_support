@@ -42,7 +42,7 @@
 <body>
     <h1>
         <h1 style="color:White;">This is the features page</h1>
-    <h1 style="color:White;">How Life_support can make your battery long-lasting</h1>
+    <h1>How Life_support can make your battery long-lasting</h1>
 
 <p style="color:White;">Life-support charger/software allows you to make your battery long-lasting; you don't have to worry about unplugging your charger
 when the battery gets full cause Life-support charger/software does the work itself.
@@ -50,9 +50,9 @@ From a research made, it shows that overcharging the battery when it has already
 will be prevented cause when the battery of your device hits the maximum it stops the charger from accumulating power, also keeps the battery in a good state
 resulting in more life and long-lasting</p>
 
-<h2 style="color:White;">Life-support fast charging and supported devices</h2>
+<h2>Life-support fast charging and supported devices</h2>
 
-<p style="color:White;">Life-support charger/software helps you charge your battery faster as it also keeps it in a good state.
+<p>Life-support charger/software helps you charge your battery faster as it also keeps it in a good state.
 
 These are the devices it supports:
 - ANDROID<br>
