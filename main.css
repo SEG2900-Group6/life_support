@@ -119,6 +119,21 @@ nav {
     background-color: #00B058;
 }
 
+.fancy {
+    text-align : center;
+  
+    padding : 1em;
+  
+    border : 0.5em solid black;
+  
+    width  : 6em;
+    height : 6em;
+  
+    border-radius: 100%;
+
+    font-family: cursive;
+}
+
 /* Content */
 .content {
     width: 100%;
