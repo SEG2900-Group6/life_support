@@ -174,11 +174,22 @@ div.member_box{
 
 }
 
-
 img.headshots {
   border-radius:50%;
   background-color: #2997FF;
   border:3px solid #00a352;    
   height:80%;
   width:80%;
+}
+
+.battery{
+  background-color: white;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 0;
+  display: inline-block;
+  line-height: 12px;
 }
