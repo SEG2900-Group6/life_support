@@ -119,8 +119,29 @@ nav {
     background-color: #00B058;
 }
 
-/* Content*/
+.fancy {
+    text-align : center;
+  
+    padding : 1em;
+  
+    border : 0.5em solid black;
+  
+    width  : 6em;
+    height : 6em;
+  
+    border-radius: 100%;
+
+    font-family: cursive;
+}
+
+/* Content */
 .content {
     width: 100%;
     height: 100%;
+}
+
+ul.a{
+    list-style-type: square;
+    margin: 0;
+    padding: 2;
 }
