@@ -162,4 +162,23 @@ ul.a {
   list-style-type: square;
   margin: 0;
   padding: 2;
+  color: #121217;
+}
+
+div.member_box{
+  text-align: center;
+  border: 2px solid #00A352;
+  background-color: rgba(41, 151, 255, 0.7);
+  width: 30%;
+  height: 10%;
+
+}
+
+
+img.headshots {
+  border-radius:50%;
+  background-color: #2997FF;
+  border:3px solid #00a352;    
+  height:80%;
+  width:80%;
 }
