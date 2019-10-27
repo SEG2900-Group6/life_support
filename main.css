@@ -1,7 +1,24 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: ("fonts/SF-Pro-Display-Black");
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #121217;
+}
+a,
+span,
+p,
+h1,
+h2,
+h3,
+li {
+  font-family: "SF Pro Display", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
 }
 
 li a {
@@ -45,13 +62,13 @@ nav {
 .nav-right {
   float: right;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 14px;
 }
 
 .nav-left {
   float: left;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 14px;
 }
 
 .nav-left a {
