@@ -8,4 +8,4 @@
 	- Elias Maalouf(Student number: 0300118475) https://github.com/EliasMaalouf
 	- Dris-Bella Ishimwe(student number: 0300144521) https://github.com/Dbella01
 	- Nicholas Morin (Student Number 0300109959) https://github.com/NicholasMorinUO
-    	- Sean D'Souza (Student number: 0300113232) https://github.com/seendsouza
+    - Sean D'Souza (Student number: 0300113232) https://github.com/seendsouza
