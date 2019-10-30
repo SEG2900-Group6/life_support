@@ -193,3 +193,7 @@ img.headshots {
   display: inline-block;
   line-height: 12px;
 }
+
+div.buy{
+  text-align: center;
+}
