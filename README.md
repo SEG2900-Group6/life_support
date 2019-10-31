@@ -13,11 +13,6 @@
 
 *************************************
 *    TEXT CONTENT TO BE ADDED	    *
-*				    *
-* 				    *
 https://docs.google.com/document/d/1hz_gj1wQEH0ChPaqo4_89OIUjzobBGUmmEZ77WQAduU/edit?usp=sharing			    
-* 				    *
-* 				    *
 *            IMPORTANT		    *
-* 				    *
 *************************************
