@@ -16,8 +16,7 @@ p,
 h1,
 h2,
 h3,
-li
- {
+li {
   font-family: "SF Pro Display", "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
 }
@@ -38,11 +37,11 @@ nav {
   width: 100%;
   top: 0px;
   left: 0px;
-  position: absolute;
+  position: sticky;
   overflow: hidden;
   background: transparent;
   display: block;
-  z-index:9999;
+  z-index: 9999;
 }
 
 .nav-background {
@@ -158,7 +157,6 @@ nav {
   font-family: cursive;
 }
 
-
 /* Content */
 .content {
   width: 100%;
@@ -173,15 +171,15 @@ nav {
 }
 
 .text-container {
-  position:absolute;
-  width:100%;
-  height:auto;
-  min-height:100%;
-  text-align:center;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  text-align: center;
   display: block;
-  align-items:center;
+  align-items: center;
   top: 27.5%;
-  z-index:4;
+  z-index: 4;
 }
 .s1-top-text {
   position: relative;
@@ -191,7 +189,7 @@ nav {
   font-size: 2rem;
   text-decoration: none;
   z-index: 4;
-  color: #A8A8A8;
+  color: #a8a8a8;
 }
 
 .s1-center-text {
@@ -202,7 +200,7 @@ nav {
   font-size: 4rem;
   text-decoration: none;
   z-index: 4;
-  color: #FFF;
+  color: #fff;
 }
 
 .s1-bottom-text {
@@ -213,26 +211,26 @@ nav {
   font-size: 1.5rem;
   text-decoration: none;
   z-index: 4;
-  color: #A8A8A8;
+  color: #a8a8a8;
 }
 .s2-text-block {
-  position:relative;
+  position: relative;
   display: block;
-  text-align:center;
+  text-align: center;
 }
 .s2-text-block-l {
-  position:relative;
+  position: relative;
   display: block;
-  text-align:center;
-  width:50%;
+  text-align: center;
+  width: 50%;
   float: left;
 }
 
 .s2-text-block-r {
-  position:relative;
+  position: relative;
   display: block;
-  text-align:center;
-  width:50%;
+  text-align: center;
+  width: 50%;
   float: right;
 }
 .s2-text {
@@ -243,7 +241,7 @@ nav {
   font-size: 2rem;
   text-decoration: none;
   z-index: 4;
-  color: #FFF;
+  color: #fff;
 }
 
 .video-container {
@@ -271,13 +269,13 @@ nav {
   left: 800px;
 }
 
-.home-page-text p6{
+.home-page-text p6 {
   position: absolute;
   top: 925px;
   left: 758px;
   /* text-align: center; */
   font-size: 1.65rem;
-  font-family: 'San-francisco', sans-serif;
+  font-family: "San-francisco", sans-serif;
   text-decoration: none;
   padding: 20px;
   margin: 15px;
@@ -291,13 +289,13 @@ nav {
   left: 400px;
 }
 
-.home-page-text p7{
+.home-page-text p7 {
   position: absolute;
   top: 1050px;
   left: 335px;
   /* text-align: center; */
   font-size: 1.65rem;
-  font-family: 'San-francisco', sans-serif;
+  font-family: "San-francisco", sans-serif;
   text-decoration: none;
   padding: 20px;
   margin: 15px;
@@ -320,7 +318,7 @@ nav {
   left: 630.3px;
   /* text-align: center; */
   font-size: 2rem;
-  font-family: 'San-francisco', sans-serif;
+  font-family: "San-francisco", sans-serif;
   text-decoration: none;
   padding: 20px;
   margin: 15px;
@@ -340,7 +338,7 @@ nav {
   position: relative;
 }
 
-.about-headshots img{
+.about-headshots img {
   width: 100%;
   height: 100%;
   box-shadow: 0 0 10px cyan;
@@ -358,7 +356,7 @@ nav {
   top: 25%;
   z-index: 1;
   font-size: 1.15rem;
-  font-family: 'San-francisco', sans-serif;
+  font-family: "San-francisco", sans-serif;
   color: #fff;
   text-align: center;
   width: 100%;
@@ -386,7 +384,7 @@ img.headshots {
   width:80%;
 } */
 
-.battery{
+.battery {
   /* background-color: white; */
   height: 30px;
   width: 60px;
@@ -400,6 +398,6 @@ img.headshots {
   line-height: 12px;
 }
 
-div.buy{
+div.buy {
   text-align: center;
 }
