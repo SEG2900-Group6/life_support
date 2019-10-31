@@ -16,7 +16,8 @@ p,
 h1,
 h2,
 h3,
-li {
+li
+ {
   font-family: "SF Pro Display", "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
 }
@@ -33,7 +34,7 @@ nav {
   width: 100%;
   top: 0px;
   left: 0px;
-  position: sticky;
+  position: absolute;
   overflow: hidden;
   background: transparent;
   display: block;
@@ -321,12 +322,30 @@ nav {
   color: #fff;
 }
 
-ul.a {
+/* About Page - Text */
+
+/* ul.a {
   list-style-type: square;
   margin: 0;
   padding: 2;
   color: #121217;
+} */
+
+.about-text p1 {
+  top: 75px;
+  position: absolute;
+  left: 630.3px;
+  /* text-align: center; */
+  font-size: 2rem;
+  font-family: 'San-francisco', sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  color: #fff;
 }
+
+/* About Page - Our Team */
 
 div.member_box{
   text-align: center;
@@ -334,7 +353,6 @@ div.member_box{
   background-color: rgba(41, 151, 255, 0.7);
   width: 30%;
   height: 10%;
-
 }
 
 img.headshots {
