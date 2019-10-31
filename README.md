@@ -9,3 +9,10 @@
 	- Dris-Bella Ishimwe(student number: 0300144521) https://github.com/Dbella01
 	- Nicholas Morin (Student Number 0300109959) https://github.com/NicholasMorinUO
     - Sean D'Souza (Student number: 0300113232) https://github.com/seendsouza
+
+
+*************************************
+*    TEXT CONTENT TO BE ADDED	    *
+https://docs.google.com/document/d/1hz_gj1wQEH0ChPaqo4_89OIUjzobBGUmmEZ77WQAduU/edit?usp=sharing			    
+*            IMPORTANT		    *
+*************************************
