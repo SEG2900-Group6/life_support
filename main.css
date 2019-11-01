@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #121217;
+  background-color: #000;
 }
 a,
 span,
@@ -202,7 +202,7 @@ nav {
   position: absolute;
   width: 100%;
   height: 100%;
-  min-height: 99%;
+  min-height: 100%;
   text-align: center;
   display: block;
   align-items: center;
@@ -226,6 +226,7 @@ nav {
   margin: 0;
   text-align: center;
   font-size: 4rem;
+  font-weight: 600;
   text-decoration: none;
   z-index: 4;
   color: #fff;
@@ -285,6 +286,7 @@ nav {
   justify-content: center;
   overflow: hidden;
   z-index: 2;
+  padding-top: 5%;
 }
 
 /* Home Page - Text */
