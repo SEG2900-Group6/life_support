@@ -27,6 +27,10 @@ li a {
   text-decoration: none;
 }
 
+video {
+  position: relative;
+}
+
 /* NavBar */
 nav {
   height: 52px;
@@ -37,6 +41,7 @@ nav {
   overflow: hidden;
   background: transparent;
   display: block;
+  z-index: 9999;
 }
 
 .nav-background {
@@ -158,20 +163,234 @@ nav {
   height: 100%;
 }
 
-ul.a {
+.footer {
+  position: absolute;
+  top: 1130px;
+  left: 640px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #a8a8a8;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  display: block;
+}
+
+.text-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 99%;
+  text-align: center;
+  display: block;
+  align-items: center;
+  top: 4%;
+  z-index: 4;
+}
+.s1-top-text {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #a8a8a8;
+}
+
+.s1-center-text {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #fff;
+}
+
+.s1-bottom-text {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #a8a8a8;
+}
+.s2-text-block {
+  position: relative;
+  display: block;
+  text-align: center;
+  top: -250px;
+}
+.s2-text-block-l {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 50%;
+  float: left;
+  top: -300px;
+}
+
+.s2-text-block-r {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 50%;
+  float: right;
+  top: -300px;
+}
+.s2-text {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #fff;
+}
+
+.video-container {
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Home Page - Text */
+.grey-bar-1 {
+  position: absolute;
+  top: 925px;
+  left: 400px;
+}
+
+.grey-bar-2 {
+  position: absolute;
+  top: 925px;
+  left: 800px;
+}
+
+.home-page-text p6 {
+  position: absolute;
+  top: 925px;
+  left: 758px;
+  /* text-align: center; */
+  font-size: 1.65rem;
+  font-family: "San-francisco", sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  color: #fff;
+}
+
+.grey-bar-3 {
+  position: absolute;
+  top: 1050px;
+  left: 400px;
+}
+
+.home-page-text p7 {
+  position: absolute;
+  top: 1050px;
+  left: 335px;
+  /* text-align: center; */
+  font-size: 1.65rem;
+  font-family: "San-francisco", sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  color: #fff;
+}
+
+/* About Us - Text */
+
+/* ul.a {
   list-style-type: square;
   margin: 0;
   padding: 2;
   color: #121217;
+} */
+
+.about-text {
+  top: 75px;
+  position: absolute;
+  left: 630.3px;
+  /* text-align: center; */
+  font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  color: #fff;
 }
 
-div.member_box{
+/* About Us - Our Team */
+
+.about-headshots {
+  top: 150px;
+  left: 100px;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.about-headshots img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px cyan;
+  border-radius: 30%;
+}
+
+.about-headshots:hover img {
+  filter: blur(4px) brightness(50%);
+  transition: 0.5s;
+  box-shadow: 0 0 16px yellow;
+}
+
+.about-headshots :not(img) {
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  font-size: 1.15rem;
+  font-family: "San-francisco", sans-serif;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.about-headshots:hover :not(img) {
+  opacity: 1;
+}
+
+/* div.member_box{
   text-align: center;
   border: 2px solid #00A352;
   background-color: rgba(41, 151, 255, 0.7);
   width: 30%;
   height: 10%;
-
 }
 
 img.headshots {
@@ -180,16 +399,22 @@ img.headshots {
   border:3px solid #00a352;    
   height:80%;
   width:80%;
-}
+} */
 
-.battery{
-  background-color: white;
+.battery {
+  /* background-color: white; */
   height: 30px;
   width: 60px;
   text-align: center;
-  position: relative;
+  position: absolute;
+  top: 10px;
+  left: -30px;
   margin: 0 auto;
   padding-top: 0;
   display: inline-block;
   line-height: 12px;
+}
+
+div.buy {
+  text-align: center;
 }
