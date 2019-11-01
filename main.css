@@ -42,6 +42,7 @@ nav {
   background: transparent;
   display: block;
   z-index: 9999;
+  border-bottom: 1px solid #303033;
 }
 
 .nav-background {
