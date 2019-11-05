@@ -41,8 +41,7 @@ nav {
   overflow: hidden;
   background: transparent;
   display: block;
-  z-index: 9999;
-  border-bottom: 1px solid #303033;
+  z-index: 10;
 }
 
 .nav-background {
@@ -178,11 +177,8 @@ nav {
 }
 
 .footer {
-  position: absolute;
-  top: 1130px;
-  left: 640px;
-  padding: 0;
-  margin: 0;
+  top: 1205px;
+  position: relative;
   text-align: center;
   font-size: 1rem;
   text-decoration: none;
@@ -202,7 +198,7 @@ nav {
   position: absolute;
   width: 100%;
   height: 100%;
-  min-height: 100%;
+  min-height: 99%;
   text-align: center;
   display: block;
   align-items: center;
@@ -338,31 +334,141 @@ nav {
 
 /* About Us - Text */
 
-/* ul.a {
-  list-style-type: square;
-  margin: 0;
-  padding: 2;
-  color: #121217;
-} */
+.about-text-top {  
+  top: 10px;
+  position: relative;
+  /* left: 41.5%; */
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
+}
 
-.about-text {
-  top: 75px;
-  position: absolute;
-  left: 630.3px;
-  /* text-align: center; */
+.about-text-top p1 {  
+  position: relative;
   font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+
+.about-text-top p2 {
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 1.25rem;
   font-family: "San-francisco", sans-serif;
   text-decoration: none;
   padding: 20px;
-  margin: 15px;
+  margin: 0 auto;
   z-index: 1;
   color: #fff;
+}
+
+.about-text-bottom-1 {  
+  bottom: -875px;
+  position: relative;
+  /* left: 41.5%; */
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.about-grey-bar-1 {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.about-text-bottom-1 p1{
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+
+.about-text-bottom-1 p2 {
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "San-francisco", sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 auto;
+  z-index: 1;
+  color: #fff;
+}
+
+/* ------------------------------------ */
+
+.about-text-bottom-2 {  
+  bottom: -850px;
+  position: relative;
+  /* left: 41.5%; */
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.about-grey-bar-2 {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.about-text-bottom-2 p1{
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+
+.about-text-bottom-2 p2 {
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "San-francisco", sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 auto;
+  z-index: 1;
+  color: #fff;
+}
+
+.about-footer {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #a8a8a8;
 }
 
 /* About Us - Our Team */
 
 .about-headshots {
-  top: 150px;
+  top: -425px;
   left: 100px;
   width: 400px;
   height: 400px;
@@ -401,22 +507,204 @@ nav {
   opacity: 1;
 }
 
-/* div.member_box{
+/* Products Page - Text */
+.products-text-top {  
+  top: 10px;
+  position: relative;
+  /* left: 41.5%; */
   text-align: center;
-  border: 2px solid #00A352;
-  background-color: rgba(41, 151, 255, 0.7);
-  width: 30%;
-  height: 10%;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
 }
 
-img.headshots {
-  border-radius:50%;
-  background-color: #2997FF;
-  border:3px solid #00a352;    
-  height:80%;
-  width:80%;
-} */
+.products-text-top p1 {  
+  position: relative;
+  font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+
+/* Products Page - Products */
+.products_software_center1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_software {
+  max-width: 90%;
+  width: 1000px;
+  display: block;
+  /* margin: 20px; */
+  position: relative;
+}
+
+.products_software_picture {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.products_software_text {
+  position: relative;
+  top: -425px;
+  left: 35%;
+  max-width: 400px;
+  padding: 30px;
+}
+
+.products_software_text_header {
+  text-align: left;
+  display: block;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+}
+
+.products_software_text_paragraph {
+  text-align: left;
+  display: block;
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 20px;
+  color: #a8a8a8;
+}
+
+/* ------------------------------------------------ */
+
+.products_spacing_1 {
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+
+.products_software_center2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_software2 {
+  top: -100px;
+  max-width: 90%;
+  width: 1000px;
+  display: block;
+  /* margin: 20px; */
+  position: relative;
+}
+
+.products_software_picture2 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 500px;
+  vertical-align: middle;
+}
+
+.products_software_text2 {
+  position: relative;
+  top: -300px;
+  right: 35%;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+.products_software_text_header2 {
+  text-align: right;
+  margin-left: 500px;
+  display: block;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+}
+
+.products_software_text_paragraph2 {
+  text-align: right;
+  margin-left: 500px;
+  display: block;
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 20px;
+  color: #a8a8a8;
+}
+
+/* ----------------------------------------------------- */
+
+.products_spacing_2 {
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+
+.products_software_center3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+
+.products_software3 {
+  top: -175px;
+  max-width: 90%;
+  width: 1000px;
+  display: block;
+  /* margin: 20px; */
+  position: relative;
+}
+
+.products_software_picture3 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.products_software_text3 {
+  position: relative;
+  top: -425px;
+  left: 35%;
+  max-width: 400px;
+  padding: 30px;
+}
+
+.products_software_text_header3 {
+  text-align: left;
+  display: block;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+}
+
+.products_software_text_paragraph3 {
+  text-align: left;
+  display: block;
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 20px;
+  color: #a8a8a8;
+
+.battery {
+  /* background-color: white; */
+  height: 30px;
+  width: 60px;
+}
 
 div.buy {
   text-align: center;
 }
+
+
+div.buy {
+  text-align: center;
+}
+
