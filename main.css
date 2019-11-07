@@ -16,7 +16,7 @@ p,
 h1,
 h2,
 h3,
-li {
+li,p1,p2 {
   font-family: "SF Pro Display", "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
 }
@@ -174,6 +174,8 @@ nav {
 .content {
   width: 100%;
   height: 100%;
+  text-align:center;
+  justify-content;:center;
 }
 
 .footer {
@@ -197,8 +199,13 @@ nav {
 .text-container {
   position: absolute;
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
   min-height: 99%;
+=======
+  height: 96%;
+  min-height: 96%;
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   text-align: center;
   display: block;
   align-items: center;
@@ -407,6 +414,7 @@ nav {
   text-decoration: none;
   padding: 20px;
   margin: 0 auto;
+<<<<<<< HEAD
   z-index: 1;
   color: #fff;
 }
@@ -438,10 +446,46 @@ nav {
   font-family: "San-francisco", sans-serif;
   font-weight: bold;
   text-decoration: none;
+=======
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   z-index: 1;
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+/* ------------------------------------ */
+
+.about-text-bottom-2 {  
+  bottom: -850px;
+  position: relative;
+  /* left: 41.5%; */
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.about-grey-bar-2 {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.about-text-bottom-2 p1{
+  position: relative;
+  display: inline-block;
+  left: 0%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 .about-text-bottom-2 p2 {
   position: relative;
   display: inline-block;
@@ -513,16 +557,26 @@ nav {
   position: relative;
   /* left: 41.5%; */
   text-align: center;
+<<<<<<< HEAD
   padding: 20px;
+=======
+  padding: 80px;
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   margin: 0 auto;
   color: #fff;
 }
 
 .products-text-top p1 {  
   position: relative;
+<<<<<<< HEAD
   font-size: 2rem;
   font-family: "San-francisco", sans-serif;
   font-weight: bold;
+=======
+  font-size: 4rem;
+  font-family: "San-francisco", sans-serif;
+  font-weight:bold;
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   text-decoration: none;
   z-index: 1;
   color: #fff;
@@ -562,7 +616,10 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.5em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+=======
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -572,9 +629,14 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.2em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 20px;
   color: #a8a8a8;
+=======
+  line-height: 30px;
+  color: #cdcdcd;
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 }
 
 /* ------------------------------------------------ */
@@ -620,7 +682,10 @@ nav {
   margin-left: 500px;
   display: block;
   font-size: 1.5em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+=======
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -631,9 +696,14 @@ nav {
   margin-left: 500px;
   display: block;
   font-size: 1.2em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 20px;
   color: #a8a8a8;
+=======
+  line-height: 30px;
+  color: #cdcdcd;
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 }
 
 /* ----------------------------------------------------- */
@@ -679,7 +749,10 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.5em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+=======
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -689,10 +762,16 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.2em;
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 20px;
   color: #a8a8a8;
 
+=======
+  line-height: 30px;
+  color: #cdcdcd;
+}
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 .battery {
   /* background-color: white; */
   height: 30px;
@@ -708,3 +787,98 @@ div.buy {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+/* How it Works */
+.hiw-1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("697601.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 50%;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  display: flex;
+  line-height: 1.5;
+  z-index: 4;
+}
+.hiw-1 h1{
+  text-align: center;
+  font-size: 2em;
+  color: White;
+  display: block;
+
+}
+.hiw-2 { 
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.hiw-2 h1,h2,p {
+  color: black;
+  padding: 10px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%; text-align: center;
+  justify-content: center;
+}
+.column img {
+  max-width: 20%;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+}
+.column p{
+  font-weight:bold;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.row:after {
+  content: "";
+  display: table;
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+.roundy {
+  background-color: white;
+  width: 24rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.roundy .download-btn {
+  padding: 5px 5px;
+  margin: 20px 0px;
+}
+.download-1 {
+  padding-bottom: 50px;
+  height: 25vh;
+  justify-content: center;
+  text-align: center;
+}
+.download-1 h1 {
+  color: #fff;
+  font-size: 4rem;
+  padding: 10px 0px 10px 0px;
+}
+.download-1 p {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 20px 0px;
+}
+>>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
