@@ -199,13 +199,8 @@ nav {
 .text-container {
   position: absolute;
   width: 100%;
-<<<<<<< HEAD
-  height: 100%;
-  min-height: 99%;
-=======
   height: 96%;
   min-height: 96%;
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   text-align: center;
   display: block;
   align-items: center;
@@ -414,7 +409,6 @@ nav {
   text-decoration: none;
   padding: 20px;
   margin: 0 auto;
-<<<<<<< HEAD
   z-index: 1;
   color: #fff;
 }
@@ -446,46 +440,10 @@ nav {
   font-family: "San-francisco", sans-serif;
   font-weight: bold;
   text-decoration: none;
-=======
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   z-index: 1;
   color: #fff;
 }
 
-<<<<<<< HEAD
-=======
-/* ------------------------------------ */
-
-.about-text-bottom-2 {  
-  bottom: -850px;
-  position: relative;
-  /* left: 41.5%; */
-  text-align: center;
-  padding: 20px;
-  margin: 0 auto;
-  color: #fff;
-}
-
-.about-grey-bar-2 {
-  position: relative;
-  display: block;
-  text-align: center;
-}
-
-.about-text-bottom-2 p1{
-  position: relative;
-  display: inline-block;
-  left: 0%;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "San-francisco", sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  z-index: 1;
-  color: #fff;
-}
-
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 .about-text-bottom-2 p2 {
   position: relative;
   display: inline-block;
@@ -557,26 +515,16 @@ nav {
   position: relative;
   /* left: 41.5%; */
   text-align: center;
-<<<<<<< HEAD
-  padding: 20px;
-=======
   padding: 80px;
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   margin: 0 auto;
   color: #fff;
 }
 
 .products-text-top p1 {  
   position: relative;
-<<<<<<< HEAD
-  font-size: 2rem;
-  font-family: "San-francisco", sans-serif;
-  font-weight: bold;
-=======
   font-size: 4rem;
   font-family: "San-francisco", sans-serif;
   font-weight:bold;
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   text-decoration: none;
   z-index: 1;
   color: #fff;
@@ -616,10 +564,6 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.5em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-=======
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -629,14 +573,8 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.2em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 20px;
-  color: #a8a8a8;
-=======
   line-height: 30px;
   color: #cdcdcd;
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 }
 
 /* ------------------------------------------------ */
@@ -682,10 +620,6 @@ nav {
   margin-left: 500px;
   display: block;
   font-size: 1.5em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-=======
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -696,14 +630,8 @@ nav {
   margin-left: 500px;
   display: block;
   font-size: 1.2em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 20px;
-  color: #a8a8a8;
-=======
   line-height: 30px;
   color: #cdcdcd;
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 }
 
 /* ----------------------------------------------------- */
@@ -749,10 +677,6 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.5em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-=======
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
   font-weight: bold;
   line-height: 50px;
   color: #fff;
@@ -762,16 +686,9 @@ nav {
   text-align: left;
   display: block;
   font-size: 1.2em;
-<<<<<<< HEAD
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 20px;
-  color: #a8a8a8;
-
-=======
   line-height: 30px;
   color: #cdcdcd;
 }
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
 .battery {
   /* background-color: white; */
   height: 30px;
@@ -787,8 +704,6 @@ div.buy {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 
 /* How it Works */
 .hiw-1 {
@@ -823,7 +738,6 @@ div.buy {
   color: black;
   padding: 10px;
 
-<<<<<<< HEAD
 }
 
 .column {
@@ -867,6 +781,7 @@ div.buy {
   margin: 20px 0px;
 }
 .download-1 {
+  padding-bottom: 50px;
   height: 25vh;
   justify-content: center;
   text-align: center;
@@ -881,7 +796,3 @@ div.buy {
   font-size: 1.5rem;
   padding: 20px 0px;
 }
->>>>>>> 45e12f50903c197980296ee34a30fd1f6ffc79a8
-=======
-}
->>>>>>> parent of 7a99bf6... uhh download page
