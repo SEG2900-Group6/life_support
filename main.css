@@ -863,7 +863,7 @@ div.buy {
 }
 .column img {
   max-width: 20%;
-  display: block;
+  display: inline-block;
   text-align: center;
   padding: 20px 20px;
 }
